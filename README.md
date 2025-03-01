@@ -79,8 +79,9 @@ AeroPulse aligns **perfectly** with the hackathon’s vision: it is **AI-driven,
   - **Audio Recording & Processing:** Initialization of I2S and SPIFFS, handling recording buffers, and writing a proper WAV header.
   - **User Feedback:** Animations and audio cues (chimes, countdowns) displayed on an OLED.
   - **File Upload:** Sends recorded WAV files in chunks to the server via HTTP.
+    
+    <img width="605" alt="image" src="https://github.com/user-attachments/assets/97e841b4-8cd4-4e32-94cd-c911869a9e7d" />
 
-    ![Image 1](https://github.com/user-attachments/assets/834ae5af-0d98-4c81-9892-62c17f756f35)
 
 
 
