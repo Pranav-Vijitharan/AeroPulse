@@ -54,7 +54,7 @@ AeroPulse aligns **perfectly** with the hackathon’s vision: it is **AI-driven,
   - Processes respiratory sound data.
   - Extracts features using MFCCs (Mel-Frequency Cepstral Coefficients) and mel spectrograms.
   - Implements data augmentation to simulate variations in breathing sounds.
-  - Constructs a hybrid CNN-GRU network architecture to classify different lung conditions.
+  - Constructs a GRU network architecture to classify different lung conditions.
   - Saves the trained model weights for later deployment. (weights were hosted in the cloud)
 - **Key Components:**
   - **Feature Extraction:** Code to extract MFCCs and spectrogram features.
