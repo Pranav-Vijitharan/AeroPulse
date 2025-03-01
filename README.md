@@ -64,6 +64,8 @@ AeroPulse is an innovative, AI-powered diagnostic tool designed to transform hea
   - **`GET /get_prediction`:** Returns the most recent prediction and timestamp.
   - **`GET /`:** Provides basic API status and usage information.
 
+    <img width="1399" alt="image" src="https://github.com/user-attachments/assets/e5311ed7-921c-4e9e-bbf7-ce82e9bcfda1" />
+
 ---
 
 ## How It Works: End-to-End Flow
