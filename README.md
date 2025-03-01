@@ -63,6 +63,7 @@ AeroPulse aligns **perfectly** with the hackathon’s vision: it is **AI-driven,
   - **Evaluation:** Performance metrics and visualizations to assess model accuracy. Model is able to hit 90% accuracy.
     
     <img width="467" alt="image" src="https://github.com/user-attachments/assets/3fa60099-9633-4070-83e9-b08630a7e568" />
+ 
     
     <img width="405" alt="image" src="https://github.com/user-attachments/assets/609abdac-de7e-485c-9938-4e68578c045d" />
 
