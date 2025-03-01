@@ -7,7 +7,7 @@ AeroPulse is an innovative, AI-powered diagnostic tool designed to transform hea
 ## 🚀 How AeroPulse Tackles the Problem Statement  
 
 ### **Challenge Overview:**  
-Healthcare is shifting from reactive treatment to **proactive, AI-driven prevention**. The challenge is to develop AI-powered solutions that integrate **remote health monitoring, real-time health data tracking, and intelligent alerts** to enable early intervention. Solutions should leverage wearable or mobile technology to improve healthcare accessibility.
+Healthcare is shifting from reactive treatment to **proactive, AI-driven prevention**. The challenge is to develop AI-powered solutions that integrate **remote health monitoring, real-time health data tracking, and intelligent alerts** to enable early intervention. 
 
 ### **AeroPulse as an AI-Centric, Seamless, and Adaptive Solution**  
 
@@ -79,6 +79,11 @@ AeroPulse aligns **perfectly** with the hackathon’s vision: it is **AI-driven,
   - **Audio Recording & Processing:** Initialization of I2S and SPIFFS, handling recording buffers, and writing a proper WAV header.
   - **User Feedback:** Animations and audio cues (chimes, countdowns) displayed on an OLED.
   - **File Upload:** Sends recorded WAV files in chunks to the server via HTTP.
+    ![Image 2](https://github.com/user-attachments/assets/10adf240-4473-4756-9106-2d62c9dc037b)
+
+    ![Image 1](https://github.com/user-attachments/assets/834ae5af-0d98-4c81-9892-62c17f756f35)
+
+
 
 ### 3. **app.py**
 - **Purpose:**  
