@@ -1,6 +1,6 @@
 # AeroPulse: AI-Enabled Stethoscope for Early Lung Disease Detection
 
-AeroPulse is an innovative, AI-powered diagnostic tool designed to transform healthcare accessibility in developing countries. By converting breathing sounds into digital features and analyzing them with deep learning models, AeroPulse empowers healthcare providers with early, accurate diagnosis of lung diseases such as COPD, pneumonia, and bronchitis. Our solution leverages commonly found tools like stethoscope and brings advanced AI diagnostic capabilities where traditional, complex medical devices are scarce.
+AeroPulse is an innovative, AI-powered diagnostic tool designed to transform healthcare accessibility in developing countries. By converting breathing sounds into digital features and analyzing them with deep learning models, AeroPulse empowers healthcare providers with early, accurate diagnosis of lung diseases such as COPD, pneumonia, and bronchitis. Our solution leverages commonly found tools like stethoscope and brings advanced AI diagnostic capabilities where traditional, complex medical devices are scarce. The idea may seem to sci-fi but we based this idea on a [research paper](https://www.mdpi.com/1424-8220/23/5/2591) that we read about. 
 
 ---
 
