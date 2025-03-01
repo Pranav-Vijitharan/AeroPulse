@@ -34,6 +34,7 @@ AeroPulse is an innovative, AI-powered diagnostic tool designed to transform hea
   - **Data Augmentation:** Techniques to expand the training dataset.
   - **Model Architecture:** A multi-branch network combining convolutional and recurrent layers.
   - **Evaluation:** Performance metrics and visualizations to assess model accuracy. Model is able to hit 90% accuracy.
+    
     <img width="467" alt="image" src="https://github.com/user-attachments/assets/3fa60099-9633-4070-83e9-b08630a7e568" />
     
     <img width="405" alt="image" src="https://github.com/user-attachments/assets/609abdac-de7e-485c-9938-4e68578c045d" />
