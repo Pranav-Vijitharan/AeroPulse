@@ -49,10 +49,10 @@ AeroPulse is an innovative, AI-powered diagnostic tool designed to transform hea
 
 ### 3. **app.py**
 - **Purpose:**  
-  The Flask application acts as the backend API for AeroPulse. It:
+  The Flask application acts as the backend API for AeroPulse. This is being hosted in the cloud. We are using Render. It:
   - **Receives Audio Files:** Provides an endpoint (`/upload`) to accept WAV files uploaded from the ESP32 device.
   - **Preprocesses Audio Data:** Extracts audio features (MFCCs) from the uploaded file.
-  - **Predicts the Condition:** Loads a pre-trained GRU-based deep learning model and predicts lung disease from the audio features.
+  - **Predicts the Condition:** Loads the pre-trained GRU model and predicts lung disease from the audio features.
   - **Serves Prediction Results:** Offers another endpoint (`/get_prediction`) for retrieving the latest prediction.
 - **Key Endpoints:**
   - **`POST /upload`:** Handles file upload, feature extraction, and prediction.
