@@ -79,7 +79,6 @@ AeroPulse aligns **perfectly** with the hackathon’s vision: it is **AI-driven,
   - **Audio Recording & Processing:** Initialization of I2S and SPIFFS, handling recording buffers, and writing a proper WAV header.
   - **User Feedback:** Animations and audio cues (chimes, countdowns) displayed on an OLED.
   - **File Upload:** Sends recorded WAV files in chunks to the server via HTTP.
-    ![Image 2](https://github.com/user-attachments/assets/10adf240-4473-4756-9106-2d62c9dc037b)
 
     ![Image 1](https://github.com/user-attachments/assets/834ae5af-0d98-4c81-9892-62c17f756f35)
 
@@ -117,7 +116,14 @@ AeroPulse aligns **perfectly** with the hackathon’s vision: it is **AI-driven,
 
 3. **Feedback & Display (hardware.ino):**
    - The ESP32 periodically polls the server for prediction results.
-   - The prediction result is displayed on the OLED screen, and corresponding audio feedback (chimes) is played.
+   - The prediction result is displayed on the OLED screen, and corresponding audio feedback is played.
+
+---
+
+## Limitations
+
+1. We had to run the AI model on the cloud as the model was not able to be fit inside microcontrollers. When we tryed quantizing the AI model such that it works on microcontrollers, it took a hit on the accuracy and therefore we proceeded with using cloud. However, in the future we aim to run the model locally with better processors.
+2. The sound captured by the mic is not very optimal as the mic captures a lot of static sound. Therefore, the outputs from the model is not correct.
 
 ---
 
